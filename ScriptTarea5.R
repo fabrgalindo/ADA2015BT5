@@ -1,0 +1,12 @@
+datosMelate<-read.csv(file = "ResultadosMelate.csv")
+datosMelate
+names(datosMelate)
+dim(datosMelate)
+summary(datosMelate)
+hist(datosMelate$N1)
+hist(datosMelate$N2)
+hist(datosMelate$N3)
+hist(datosMelate$N4)
+hist(datosMelate$N5)
+hist(datosMelate$N6)
+plot(datosMelate$FECHA,datosMelate$N1,main="SORTEO DE MELATE",xlab="FECHA", ylab="N1")
