@@ -2,6 +2,10 @@
 #Primer commit de texto de sincronización.
 #Se realizaron comentarios sobre las instrucciones
 
+#Segundo commit
+#Se agrego la URL del repositorio
+#https://github.com/fabrgalindo/ADA2015BT5
+
 #Asignar el archivo ResultadosMelate,csv a la variable datosMelate
 datosMelate<-read.csv(file = "ResultadosMelate.csv")
 
